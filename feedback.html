@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy develop | CodingLab</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection
+{
+  color: #000;
+  background: #fff;
+}
+nav
+{
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu
+{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul
+{
+  display: inline-flex;
+}
+.menu ul li
+{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child
+{
+  margin-left: 0px;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover
+{
+  background: #fff;
+  color: black;
+}
+.img video
+{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+.center
+{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title
+{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title
+{
+  color: #fff;
+  font-size: 150px;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 0;
+}
+.center .btns
+{
+  margin-top: 20px;
+}
+.center .btns button
+{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns span
+{
+  color: #fff;
+  background: none;
+}
+.center .btns span:hover
+{
+  text-shadow: 2px 2px 5px #fff;
+}
+h2
+{
+  text-decoration: underline;
+}
+
+
+.feeds
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.member
+{
+  height: 400px;
+  width: 380px;
+  text-align: left;
+}
+.anime
+{
+  height: 400px;
+  width: 500px;
+  background-image: url(tech1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.feeds2
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.member2
+{
+  height: 400px;
+  width: 380px;
+  text-align: left;
+}
+.anime2
+{
+  height: 400px;
+  width: 500px;
+  background-image: url(tech2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.feeds3
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.member3
+{
+  height: 400px;
+  width: 380px;
+  text-align: left;
+}
+.anime3
+{
+  height: 400px;
+  width: 500px;
+  text-align: left;
+  background-image: url(tech3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+    </style>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Sandy Develop</a>
+      </div>
+      <ul>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="about.html"target="_self">About</a></li>
+        <li><a href="services.html"target="_self">Services</a></li>
+        <li><a href="contact.html"target="_self">Contact</a></li>
+        <li><a href="feedback.html"target="_self">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img">
+    <video autoplay muted loop id="myVideo">
+      <source src="code.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="center">
+    <div class="title">Feedbacks</div>
+    <div class="sub_title">&#8595;</div>
+    <div class="btns">
+      <span>Scroll Down</span>
+    </div>
+  </div>
+  <center>
+    <div class="feeds">
+      <div class="member">
+        <h2>John :</h2><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="anime"></div>
+    </div>
+
+    <div class="feeds2">
+      <div class="anime2"></div>
+      <div class="member2">
+        <h2>Smith :</h2><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="feeds3">
+      <div class="member3">
+        <h2>Alan :</h2><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="anime3"></div>
+    </div>
+  </center>
+</body>
+</html>
